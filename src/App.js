@@ -4,6 +4,7 @@ import './App.css';
 import RadioStations from './components/RadioStations'
 
 class App extends Component {
+
   render() {
     return (
       <div className="App">
@@ -13,15 +14,7 @@ class App extends Component {
         <article className="main-article">
           <section className="main-section">
             <ul className="radio-stations-list">
-              <li>
-                Top Songs PL
-              </li>
-              <li>
-                Best Hits Ever
-              </li>
-              <li>
-                Classic EU
-              </li>
+              <RadioStations/>
             </ul>
           </section>
         </article>
